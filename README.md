@@ -133,14 +133,14 @@ email_agent.py           # (sin cambios) emisor de email
 
 ## 🎓 Origen
 
-Este proyecto es una **evolución del proyecto final** del **Curso Completo de Ingeniería de Agentes de IA** (original de Ed Donner). El código original usaba un orquestador imperativo en Python con `asyncio.gather`. Esta versión lo reemplaza por un **patrón agentic puro**: el LLM es quien decide el flujo, no el código.
+Este proyecto es una **evolución del proyecto final de la semana 2** del **Curso Completo de Ingeniería de Agentes de IA** (original de Ed Donner). El código original usaba un orquestador imperativo en Python con `asyncio.gather`. Esta versión lo reemplaza por un **patrón agentic puro**: el LLM es quien decide el flujo, no el código.
 
 Conceptos aplicados del curso:
 - Multi-agent systems
 - Tools & function calling
 - Structured outputs (Pydantic)
 - Tracing & observability
-- Handoffs (considerados, no aplicados —更适合 agents-as-tools)
+- Handoffs (considerados, no aplicados, se utilizaron agents-as-tools)
 
 ---
 
